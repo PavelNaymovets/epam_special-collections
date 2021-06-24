@@ -121,7 +121,7 @@ public class Tests {
     }
 
     private void testCaseMQ(final int expectedMedian, final String expectedQueue, final Integer... elements) {
-        Queue<Integer> queue = (Queue<Integer>) new MedianQueue();
+        Queue<Integer> queue = new MedianQueue();
         assertEquals(0, queue.size());
 
         stream(elements).forEach(queue::offer);
