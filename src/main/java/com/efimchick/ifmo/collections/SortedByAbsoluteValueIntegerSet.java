@@ -52,6 +52,7 @@ class SortedByAbsoluteValueIntegerSet implements Set<Integer> {
 
                 currentIndex++;
                 return arr.get(currentIndex - 1);
+
             }
         };
     }

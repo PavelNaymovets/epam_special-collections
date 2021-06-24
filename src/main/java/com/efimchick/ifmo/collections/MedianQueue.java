@@ -128,5 +128,6 @@ class MedianQueue implements Queue<Integer> {
         Collections.sort(list);
         int paramPeek = list.get((list.size() - 1 )/2);
         return paramPeek;
+
     }
 }

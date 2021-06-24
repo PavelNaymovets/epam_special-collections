@@ -42,6 +42,7 @@ class PairStringList implements List<String>{
                 }
                 currentIndex++;
                 return list.get(currentIndex - 1);
+
             }
         };
     }
